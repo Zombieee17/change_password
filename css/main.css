@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Manrope:wght@300;400;500;600;700;800&family=Open+Sans:wght@600&family=Roboto&family=Tinos:wght@700&display=swap');
+* {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header{
+    width: 1920px;
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 112px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.06);
+}
+
+.header-right__link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-right__link b{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #111111;
+    padding-right: 100px;
+}
+
+/*************************************************************CONTENT*********************************************************************/
+
+.section{
+    padding: 0 112px;
+    margin-top: 64px;
+}
+
+.content{
+    display: flex;
+}
+
+.settingsbar-menu{
+    list-style: none;
+}
+
+.settingsbar-title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #111111;
+    margin-top: 32px;
+}
+
+.settingsbar-stick{
+    width: 314px;    
+    margin: 32.5px 0 32.5px 0;
+}
+
+.settingsbar{
+    width: 378px;
+    height: 471px;
+    background: #FFFFFF;
+    border: 2px solid rgba(17, 17, 17, 0.26);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settingsbar-menu-item__list{
+    margin-bottom: 16px;
+}
+
+
+.settingsbar-menu-item__link{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #111111;
+    opacity: 0.5;
+}
+
+.settingsbar-menu-item__link-chosen{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #111111;
+}
+
+
+.change-password{
+    width: 763px;
+    height: 421px;
+    background: #FFFFFF;
+    border: 2px solid rgba(17, 17, 17, 0.26);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 32px;
+    margin-left: 32px;
+    margin-bottom: 100px;
+}
+
+.change-password__text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.72;
+    padding-bottom: 12px;
+}
+
+.change-password__password{
+    width: 698.65px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid rgba(17, 17, 17, 0.26);
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+
+.change-password__button{
+    width: 699px;
+    height: 48px;
+    background: #638FFF;
+    border:none;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+.change-password label{
+    margin-bottom: 12px;
+}
+
+.change-password__button-text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*****************************************************************FOOTER************************************************************************************/
+
+
+.footer{
+    padding: 48px 112px;
+    background: #FFFFFF;
+    border-top: 2px solid #C0C0C0;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.footer-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    width: 293px;
+    gap: 10px;
+}
+
+.footer-left span{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    color: #111111;
+}
+
+.footer-right {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px 198px;
+    margin-left: 52px;
+ }
+
+ .footer-right-list{
+    list-style: none;
+ }
+
+ .footer-right-list-item__link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    color: #111111;
+ }
+
+
+ .footer-right-list-item{
+    margin-bottom: 16px;
+ }
